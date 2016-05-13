@@ -1,11 +1,10 @@
 
-# 1.0.0
-# -------
+# 1.2.0
 
 import vh, re, urllib2, urlparse, gzip, zipfile, StringIO, time, os, subprocess, socket, struct, operator, random, json, ConfigParser
 
 bl_defs = {
-	"version": "1.2.0.5", # todo: dont forget to update
+	"version": "1.2.0.0", # todo: dont forget to update
 	"curlver": ["curl", "-V"],
 	"curlreq": "curl -G -L --max-redirs %s --retry %s --connect-timeout %s -m %s --interface %s -A \"%s\" -e \"%s\" -s -o \"%s\" \"%s\" &",
 	"google": "http://ajax.googleapis.com/ajax/services/search/web?v=1.0&userip=%s&rsz=8&q=proxy%%20OR%%20socks%%20%%22%s%%3a1..65535%%22",
